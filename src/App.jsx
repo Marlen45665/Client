@@ -5,7 +5,7 @@ import { Modal } from "./components/Header/User/Modal";
 import "./App.scss"
 
 function App() {
-
+  console.log("привет")
   const [scroll, setScroll] = useState(0);
 
   const handleScroll = () => {
